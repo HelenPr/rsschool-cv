@@ -48,6 +48,11 @@ li {
     display: flex;
 }
 
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
 .profile__photo {
     width: 250px;
     height: 250px;
@@ -81,6 +86,21 @@ li {
 .about__summary {
     font-size: 18px;
     text-align: justify;
+}
+
+.contacts {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.contacts__header {
+    margin: 20px 0;
+    color: cornflowerblue;
+}
+
+.contacts-list__item {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .footer {
