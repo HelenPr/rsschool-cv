@@ -91,6 +91,7 @@ li {
 .contacts,
 .experience,
 .skills,
+.code,
 .education,
 .languages {
     margin: 20px 0;
@@ -100,6 +101,7 @@ li {
 .contacts__header,
 .experience__header,
 .skills__header,
+.code__header,
 .education__header,
 .languages__header {
     margin: 20px 0;
@@ -112,6 +114,11 @@ li {
 
 .experience-company {
     margin-bottom: 10px;
+}
+
+.code__example {
+    width: 600px;
+    height: 300px;
 }
 
 .footer {
