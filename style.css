@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font: 14px 'Times New Roman' san-serif;
+    font-size: 18px;
     color: #000000;
 }
 
@@ -48,7 +48,8 @@ li {
     display: flex;
 }
 
-.left {
+.left,
+.right {
     display: flex;
     flex-direction: column;
 }
@@ -84,7 +85,6 @@ li {
 }
 
 .about__summary {
-    font-size: 18px;
     text-align: justify;
 }
 
@@ -99,7 +99,20 @@ li {
 }
 
 .contacts-list__item {
-    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.experience {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.experience__header {
+    margin: 20px 0;
+    color: cornflowerblue;
+}
+
+.experience-company {
     margin-bottom: 10px;
 }
 
