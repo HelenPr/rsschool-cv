@@ -39,7 +39,34 @@ li {
 
 }
 
-.navigation-list-item {
+.navigation-list__item {
     display: block;
     margin-left: 20px;    
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    flex: 1 0 0;
+}
+
+.footer-link {
+    margin-left: 20px;
+}
+
+.footer-link__logo {
+    width: 55px;
+    height: 55px;
+}
+
+.footer-link__logo:hover {
+    filter: invert(52%) sepia(92%) saturate(1114%) hue-rotate(195deg) brightness(97%) contrast(91%);
 }
