@@ -71,7 +71,7 @@ li {
 
 .about__name {
     align-self: flex-end;
-    font-size: 48px;
+    font-size: 42px;
 }
 
 .about__title {
@@ -88,25 +88,24 @@ li {
     text-align: justify;
 }
 
-.contacts {
+.contacts,
+.experience,
+.skills,
+.education {
     margin: 20px 0;
     text-align: justify;
 }
 
 .contacts__header,
 .experience__header,
-.skills__header {
+.skills__header,
+.education__header {
     margin: 20px 0;
     color: cornflowerblue;
 }
 
 .contacts-list__item {
     margin-bottom: 10px;
-}
-
-.experience {
-    margin: 20px 0;
-    text-align: justify;
 }
 
 .experience-company {
