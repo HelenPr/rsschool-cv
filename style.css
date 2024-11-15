@@ -93,7 +93,9 @@ li {
     text-align: justify;
 }
 
-.contacts__header {
+.contacts__header,
+.experience__header,
+.skills__header {
     margin: 20px 0;
     color: cornflowerblue;
 }
@@ -105,11 +107,6 @@ li {
 .experience {
     margin: 20px 0;
     text-align: justify;
-}
-
-.experience__header {
-    margin: 20px 0;
-    color: cornflowerblue;
 }
 
 .experience-company {
