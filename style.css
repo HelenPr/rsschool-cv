@@ -44,6 +44,45 @@ li {
     margin-left: 20px;    
 }
 
+.main {
+    display: flex;
+}
+
+.profile__photo {
+    width: 250px;
+    height: 250px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.about {
+    display: flex;
+    height: 250px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about__name {
+    align-self: flex-end;
+    font-size: 48px;
+}
+
+.about__title {
+    align-self: flex-end;
+    color: cornflowerblue;
+}
+
+.about__header {
+    margin: 10px 0;
+    color: cornflowerblue;
+}
+
+.about__summary {
+    font-size: 18px;
+    text-align: justify;
+}
+
 .footer {
     display: flex;
     width: 100%;
@@ -54,7 +93,7 @@ li {
 
 .footer-copyright {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex: 1 0 0;
 }
 
