@@ -91,7 +91,8 @@ li {
 .contacts,
 .experience,
 .skills,
-.education {
+.education,
+.languages {
     margin: 20px 0;
     text-align: justify;
 }
@@ -99,7 +100,8 @@ li {
 .contacts__header,
 .experience__header,
 .skills__header,
-.education__header {
+.education__header,
+.languages__header {
     margin: 20px 0;
     color: cornflowerblue;
 }
