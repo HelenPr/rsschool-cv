@@ -81,8 +81,38 @@
             </section>
             <section id="code" class="code">
               <h2 class="code__header">Code</h2>
+              <details>
+                <summary class="code-example_collapsible">Code example</summary>
+                <code>
+                  <p class="code-example__text"><b>implementing basic throttle()</b></p>
+                  <pre class="code-example__text">
+                    function throttle(func, wait){
+                      let isThrottling = false;
+                      let savedArgs;
+                      let savedThis;
+                      return function wrapper(){
+                        if(isThrottling){
+                          savedArgs = arguments;
+                          savedThis = this;
+                          return
+                        }
+                        func.apply(this, arguments);
+                        isThrottling = true;
+                        setTimeout(function(){
+                          isThrottling = false;
+                            if(savedArgs){
+                              wrapper.apply(savedThis, savedArgs);
+                              savedArgs = null;
+                              savedThis = null;
+                            }
+                        }, wait);
+                    }
+                  </pre>
+                </code>
+              </details>              
+              <h2 class="code__header">My Project</h2>
               <a href="https://github.com/HelenPr/rsschool-cv">
-                <img src="./img/CV-preview.png" alt="code reference" class="code__example"/>
+                <img src="./img/CV-preview.png" alt="code reference" class="code__link"/>
               </a>
             </section>
             <section id="education" class="education">

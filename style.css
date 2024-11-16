@@ -116,9 +116,28 @@ li {
     margin-bottom: 10px;
 }
 
-.code__example {
+.code-example_collapsible {
+    background-color: #ffffff;
+    color: cornflowerblue;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid cornflowerblue;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.code-example__text {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.code__link {
     width: 600px;
     height: 300px;
+    margin: 0 auto;
 }
 
 .footer {
