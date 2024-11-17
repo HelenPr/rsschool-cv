@@ -12,8 +12,8 @@
         <nav class="navigation">
           <ul class="navigation-list">
             <li class="navigation-list__item"><a href="#about">About Me</a></li>
-            <li class="navigation-list__item"><a href="#skills">Experience</a></li>
-            <li class="navigation-list__item"><a href="#experience">Skills</a></li>
+            <li class="navigation-list__item"><a href="#experience">Experience</a></li>
+            <li class="navigation-list__item"><a href="#skills">Skills</a></li>
             <li class="navigation-list__item"><a href="#code">Code</a></li>
             <li class="navigation-list__item"><a href="#education">Education</a></li>
             <li class="navigation-list__item"><a href="#languages">Languages</a></li>
@@ -83,31 +83,18 @@
               <h2 class="code__header">Code</h2>
               <details>
                 <summary class="code-example_collapsible">Code example</summary>
-                <code>
-                  <span class="code-example__text"><b>implementing basic throttle()</b></span>
-                  <span class="code-example__text">
-                    function throttle(func, wait){
-                      let isThrottling = false;
-                      let savedArgs;
-                      let savedThis;
-                      return function wrapper(){
-                        if(isThrottling){
-                          savedArgs = arguments;
-                          savedThis = this;
-                          return
-                        }
-                        func.apply(this, arguments);
-                        isThrottling = true;
-                        setTimeout(function(){
-                          isThrottling = false;
-                            if(savedArgs){
-                              wrapper.apply(savedThis, savedArgs);
-                              savedArgs = null;
-                              savedThis = null;
-                            }
-                        }, wait);
-                    }
-                  </span>
+                <h2 class="code-example__text">Implementing Contacts section</h2>
+                <code class="code-example__text">
+                    &lt;<span>section id="contacts" class="contacts"</span>&gt;<br/>
+                    &lt;<span>h2 class="contacts__header"</span>&gt;Contacts&lt;<span>/h2</span>&gt;<br/>
+                    &lt;<span>ul class="contacts-list"</span>&gt;<br/>
+                    &lt;<span>li class="contacts-list__item"</span>&gt;Discord: Elena Protasova (elnpr)&lt;/li&gt;<br/>
+                    &lt;<span>li class="contacts-list__item"</span>&gt;Email: 0fake0lake0@gmail.com&lt;/li&gt;<br/>
+                    &lt;<span>li class="contacts-list__item"</span>&gt;GitHub: &lt;a href="https://github.com/HelenPr"&gt;HelenPr&lt;/a&gt;&lt;/li&gt;<br/>
+                    &lt;<span>li class="contacts-list__item"</span>&gt;Phone: +0 123 456 789&lt;/li&gt;<br/>
+                    &lt;<span>li class="contacts-list__item"</span>&gt;Location: Tbilisi, Georgia&lt;/li&gt;<br/>
+                    &lt;<span>/ul</span>&gt;<br/>
+                    &lt;<span>/section</span>&gt;<br/>
                 </code>
               </details>              
               <h2 class="code__header">My Project</h2>
