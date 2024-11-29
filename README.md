@@ -1,4 +1,1 @@
-# rsschool-cv
-
-https://helenpr.github.io/rsschool-cv/cv
-https://helenpr.github.io/rsschool-cv/
+https://HelenPr.github.io/rsschool-cv/
